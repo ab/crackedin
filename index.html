@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>CrackedIn -- LinkedIn leaked password checker</title>
+        <script src="./sha1.js"></script>
+        <script>
+
+
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="password" name="password" placeholder="Your LinkedIn password">
+            <input type="submit" onclick="rehash(); return false" value="hash">
+            <input type="text" name="hash" readonly=readonly>
+            <input type="submit" name="submit" value="submit to server">
+        </form>
+    </body>
+</html>
